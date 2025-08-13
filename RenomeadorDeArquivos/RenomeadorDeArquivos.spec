@@ -5,7 +5,7 @@ a = Analysis(
     ['RenomeadorDeArquivos.py'],
     pathex=[],
     binaries=[],
-    datas=[('assets/logo.png', 'assets'), ('assets/logo.ico', 'assets')],
+    datas=[('assets', 'assets')],
     hiddenimports=['PIL._tkinter_finder'],
     hookspath=[],
     hooksconfig={},
